@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid red; */
+}
+
+body {
+  max-width: 1280px;
+  margin: auto;
+  background-color: azure;
+}
+.logo {
+  width: 150px;
+  height: 80px;
+}
+.nav-list {
+  color: rgb(7, 131, 225);
+}
