@@ -13,50 +13,277 @@
     <title>Portfolio</title>
   </head>
   <body>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img class="logo" src="images/logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-3 fw-bold">
+            <li class="nav-item ms-3">
+              <a class="nav-link text-info" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link text-info" href="#">About</a>
+            </li>
+
+            <li class="nav-item ms-3">
+              <a class="nav-link text-info" href="#">Skills</a>
+            </li>
+
+            <li class="nav-item ms-3">
+              <a class="nav-link text-info" href="#">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Banner Section start -->
     <header>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"
-            ><img class="logo" src="images/logo.png" alt="" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-3 fw-bold">
-              <li class="nav-item ms-3">
-                <a class="nav-link nav-list" aria-current="page" href="#"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item ms-3">
-                <a class="nav-link nav-list" href="#">About</a>
-              </li>
+      <div class="header-info-container">
+        <h4>Hi, I am</h4>
+        <h1 class="text-info">Imtiaz Ahmmed</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Reprehenderit deserunt aliquid voluptatem tempora et tempore odit
+          ducimus in, beatae debitis iure vitae voluptatum, architecto incidunt
+          non quis. Dolorum, mollitia quas.
+        </p>
 
-              <li class="nav-item ms-3">
-                <a class="nav-link nav-list" href="#">Skills</a>
-              </li>
+        <button class="btn btn-info">Download CV</button>
+        <button class="btn btn-secondary">Contact</button>
+      </div>
+      <div class="header-img-conatainer">
+        <img class="header-img" src="images/my-picture2.png" alt="" />
+      </div>
+    </header>
+    <!-- Banner Section end -->
+    <main>
+      <!-- About Me Section Start -->
 
-              <li class="nav-item ms-3">
-                <a class="nav-link nav-list" href="#">Projects</a>
-              </li>
-            </ul>
+      <section class="about">
+        <h3 class="section-title text-info">About</h3>
+        <p class="section-discription">
+          I, m a designer & developer with a passion for web design. I enjoy
+          developing simple, clean and slick websites that provide real value to
+          the end user. Thousands of clients have procured exceptional resulfs
+          while working with me. Delivering work within time and budget which
+          meets clients requirements in our mata.
+        </p>
+        <div class="about-info-container">
+          <div class="about-info">
+            <p class="info-title">Name</p>
+            <p class="info-description">Imtiaz</p>
+          </div>
+          <div class="about-info">
+            <p class="info-title">Email</p>
+            <p class="info-description">info@gmail.com</p>
+          </div>
+          <div class="about-info">
+            <p class="info-title">Specialty</p>
+            <p class="info-description">Web Development</p>
+          </div>
+          <div class="about-info">
+            <p class="info-title">Location</p>
+            <p class="info-description">Dhaka</p>
           </div>
         </div>
-      </nav>
-    </header>
+      </section>
 
-    <main></main>
+      <!-- About Me Section End -->
 
-    <footer></footer>
+       <!-- Skill Section Start -->
+
+       <section class="what-i-do">
+        <h3 class="section-title text-info"> Skills</h3>
+        <p class="section-discription-what-i-do">I have more than 10 years experience building software for clients
+            all over the world. Below is a quick overview of my main technical skill sets and technologies i use.
+            Want to find out more about my experience? Check out my online resume and project portfolio.</p>
+
+        <div class="skills-container">
+            <div class="skill">
+                <img src="images/js.png" alt="">
+                <p class="skill-title text-secondary fw-bold">Venila JavaScript</p>
+                <p class="skill-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quisquam,
+                    asperiores nam suscipit cupiditate molestias.</p>
+            </div>
+            <div class="skill">
+                <img src="images/react.png" alt="">
+                <p class="skill-title text-secondary fw-bold">React</p>
+                <p class="skill-description">Eaque ad reiciendis temporibus, incidunt vel a qui iste adipisci
+                    eligendi aliquam ipsa labore id?</p>
+            </div>
+            <div class="skill">
+                <img src="images/mongo.png" alt="">
+                <p class="skill-title text-secondary fw-bold">MongoDB</p>
+                <p class="skill-description">In sit impedit modi aperiam molestiae reprehenderit molestias quia
+                    inventore a, ea sint? Officiis, sunt?</p>
+            </div>
+            <div class="skill">
+                <img src="images/nodejs.png" alt="">
+                <p class="skill-title text-secondary fw-bold">NodeJS</p>
+                <p class="skill-description">Deleniti officiis sequi deserunt corporis quae dolorum, consectetur
+                    facilis corrupti voluptate dolorem placeat optio rem.</p>
+            </div>
+        </div>
+    </section>
+     <!-- Skill Section End -->
+
+
+    <!-- A Summary of my Resume Section Start -->
+
+    <section class="resume">
+        <h3 class="resume-title text-info">Summary of Resume</span></h3>
+        <div class="resume-container">
+            <div>
+                <h4 class="experience">My Education</h4>
+                <div class="resume-details">
+                    <h4 class="title">Masters in Computer Science</h4>
+                    <h5 class="description">Dhaka University / 2017-2019</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, doloribus.</p>
+                </div>
+                <hr>
+                <div class="resume-details">
+                    <h4 class="title">Bachelor in Computer Science</h4>
+                    <h5 class="description">Dhaka University / 2017-2019</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, doloribus.</p>
+                </div>
+                <hr>
+                <div class="resume-details">
+                    <h4 class="title">Diploma in Computer Science</h4>
+                    <h5 class="description">Dhaka University / 2017-2019</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, doloribus.</p>
+                </div>
+
+
+            </div>
+
+            <div>
+                <h4 class="experience">My Experience</h4>
+                <div class="resume-details">
+                    <h4 class="title">Sr. Font End Developer </h4>
+                    <h5 class="description">Dhaka University / 2017-2019</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, doloribus.</p>
+                </div>
+                <hr>
+                <div class="resume-details">
+                    <h4 class="title">Junior Font End Developer </h4>
+                    <h5 class="description">Dhaka University / 2017-2019</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, doloribus.</p>
+                </div>
+                <hr>
+                <div class="resume-details">
+                    <h4 class="title">Font End Developer </h4>
+                    <h5 class="description">Dhaka University / 2017-2019</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, doloribus.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="resume-btn">
+          <button class="btn btn-info">Download CV</button>
+        </div>
+      <!-- A Summary of my Resume Section End -->
+
+      <!-- Projects Start -->
+      <section class="p-2">
+        <h2 class="text-info mt-5 text-center fw-bold">Projects</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+          <div class="col">
+            <div class="card">
+              <img src="images/the-crazy-mexican.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">The Crazy Mexican(Restaurant)</h5>
+                <p class="card-text">The Crazy Mexican is a MERN single-page web application that shows the Mexican recipes of all available Mexican chefs.</p>
+                <p > <span class="text-info fw-bold">Technologies used :</span>  React.js, Tailwind CSS, daisyUI, Express.js, Firebase Authentication</p>
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button type="button" class="btn btn-outline-primary">Client</button>
+                  <button type="button" class="btn btn-outline-primary">Server</button>
+                  <button type="button" class="btn btn-outline-primary">Live Site</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/speedy-nook.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Speedy Nook (Toy Shop)</h5>
+                <p class="card-text">Speedy Nook is a vibrant toy car shop with a wide collection of miniature cars.Customers can buy their favorite toy car here</p>
+                <p > <span class="text-info fw-bold">Technologies used :</span>  React.js, Tailwind CSS, daisyUI, Express.js, Firebase Authentication</p>
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button type="button" class="btn btn-outline-primary">Client</button>
+                  <button type="button" class="btn btn-outline-primary">Server</button>
+                  <button type="button" class="btn btn-outline-primary">Live Site</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/inner-light.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Inner Light (Yoga School)</h5>
+                <p class="card-text">Inner Light Yoga & Meditation School offers courses for students to connect mind, body, and soul. Learn ancient practices for strength.</p>
+                <p > <span class="text-info fw-bold">Technologies used :</span>  React.js, Tailwind CSS, daisyUI, Express.js, Firebase Authentication</p>
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button type="button" class="btn btn-outline-primary">Client</button>
+                  <button type="button" class="btn btn-outline-primary">Server</button>
+                  <button type="button" class="btn btn-outline-primary">Live Site</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div></section>
+      <!-- Projects End -->
+    </main>
+      <!-- Footer Start -->
+           <footer>
+
+            <section class="footer-section-container">
+
+              <div class="footer-section">
+                  <h3 class="footer-title text-info">Let's Connect</h3>
+                  <p class="footer-description">Please fill out the form on this section to contact with me or call
+                      between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+                  <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png"
+                          alt="facebook"></a>
+                  <a href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter.png"
+                          alt="twitter"></a>
+                  <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/insta.png"
+                          alt="instagram"></a>
+              </div>
+              <div class="footer-section">
+                  <h3 class="footer-title text-info">Let's Message Me</h3>
+                  <form>
+                      <input type="text" class="input-field" placeholder="Your Name"> <br>
+                      <input type="email" class="input-field" placeholder="Your Email"> <br>
+                      <textarea cols="30" rows="10" class="input-field-text-area"
+                          placeholder="Message"></textarea><br>
+                     <input class="btn btn-info" type="submit" value="Submit">
+                  </form>
+              </div>
+    </section>
+    <p class="fw-bold text-center">Copyright © 2023 || Imtiaz Ahmmed || All rights reserved.</p>
+           </footer>
+         <!-- Footer End -->
     <!-- Bootstrap Script -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
